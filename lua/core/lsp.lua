@@ -1,9 +1,9 @@
-vim.lsp.enable({'lua_ls', 'ols'})
+vim.lsp.enable({'lua_ls', 'odin_ls'})
 
 vim.lsp.config('lua_ls', {
     settings = {
         Lua = {
-            runtime = { version = { 'LuaJIT' } },
+            runtime = { version =  'LuaJIT'  },
             workspace = {
                 checkThirdyParty = false,
                 library = { vim.env.VIMRUNTIME },

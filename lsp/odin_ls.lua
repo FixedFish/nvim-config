@@ -1,6 +1,7 @@
 return {
     cmd = { 'ols' },
     filetypes = { 'odin' },
+    root_markers = { '.git', '.odin-project' },
     settings = {
         enable_semantic_tokens = true,
         enable_hover = true,
